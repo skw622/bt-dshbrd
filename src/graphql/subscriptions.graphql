@@ -1,0 +1,61 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateHeartRate {
+  onCreateHeartRate {
+    id
+    heartRate
+    appTimeStamp
+  }
+}
+subscription OnUpdateHeartRate {
+  onUpdateHeartRate {
+    id
+    heartRate
+    appTimeStamp
+  }
+}
+subscription OnDeleteHeartRate {
+  onDeleteHeartRate {
+    id
+    heartRate
+    appTimeStamp
+  }
+}
+subscription OnCreatePatient {
+  onCreatePatient {
+    id
+    lastName
+    givenNames
+    email
+    mobile
+    dateOfBirth
+    deviceId
+    isActive
+    remarks
+  }
+}
+subscription OnUpdatePatient {
+  onUpdatePatient {
+    id
+    lastName
+    givenNames
+    email
+    mobile
+    dateOfBirth
+    deviceId
+    isActive
+    remarks
+  }
+}
+subscription OnDeletePatient {
+  onDeletePatient {
+    id
+    lastName
+    givenNames
+    email
+    mobile
+    dateOfBirth
+    deviceId
+    isActive
+    remarks
+  }
+}

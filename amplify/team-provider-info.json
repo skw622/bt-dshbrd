@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "bt-dashboard-dev-20190929115758-authRole",
+            "UnauthRoleArn": "arn:aws:iam::116916852094:role/bt-dashboard-dev-20190929115758-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::116916852094:role/bt-dashboard-dev-20190929115758-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "bt-dashboard-dev-20190929115758-deployment",
+            "UnauthRoleName": "bt-dashboard-dev-20190929115758-unauthRole",
+            "StackName": "bt-dashboard-dev-20190929115758",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:116916852094:stack/bt-dashboard-dev-20190929115758/53743c70-e26d-11e9-a757-0a234791d192"
+        }
+    }
+}

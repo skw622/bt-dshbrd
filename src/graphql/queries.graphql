@@ -1,0 +1,65 @@
+# this is an auto generated file. This will be overwritten
+query GetHeartRate($id: ID!, $appTimeStamp: AWSDateTime!) {
+  getHeartRate(id: $id, appTimeStamp: $appTimeStamp) {
+    id
+    heartRate
+    appTimeStamp
+  }
+}
+query ListHeartRates(
+  $id: ID
+  $appTimeStamp: ModelStringKeyConditionInput
+  $filter: ModelHeartRateFilterInput
+  $limit: Int
+  $nextToken: String
+  $sortDirection: ModelSortDirection
+) {
+  listHeartRates(
+    id: $id
+    appTimeStamp: $appTimeStamp
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    sortDirection: $sortDirection
+  ) {
+    items {
+      id
+      heartRate
+      appTimeStamp
+    }
+    nextToken
+  }
+}
+query GetPatient($id: ID!) {
+  getPatient(id: $id) {
+    id
+    lastName
+    givenNames
+    email
+    mobile
+    dateOfBirth
+    deviceId
+    isActive
+    remarks
+  }
+}
+query ListPatients(
+  $filter: ModelPatientFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listPatients(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      lastName
+      givenNames
+      email
+      mobile
+      dateOfBirth
+      deviceId
+      isActive
+      remarks
+    }
+    nextToken
+  }
+}

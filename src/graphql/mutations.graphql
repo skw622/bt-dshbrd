@@ -1,0 +1,61 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateHeartRate($input: CreateHeartRateInput!) {
+  createHeartRate(input: $input) {
+    id
+    heartRate
+    appTimeStamp
+  }
+}
+mutation UpdateHeartRate($input: UpdateHeartRateInput!) {
+  updateHeartRate(input: $input) {
+    id
+    heartRate
+    appTimeStamp
+  }
+}
+mutation DeleteHeartRate($input: DeleteHeartRateInput!) {
+  deleteHeartRate(input: $input) {
+    id
+    heartRate
+    appTimeStamp
+  }
+}
+mutation CreatePatient($input: CreatePatientInput!) {
+  createPatient(input: $input) {
+    id
+    lastName
+    givenNames
+    email
+    mobile
+    dateOfBirth
+    deviceId
+    isActive
+    remarks
+  }
+}
+mutation UpdatePatient($input: UpdatePatientInput!) {
+  updatePatient(input: $input) {
+    id
+    lastName
+    givenNames
+    email
+    mobile
+    dateOfBirth
+    deviceId
+    isActive
+    remarks
+  }
+}
+mutation DeletePatient($input: DeletePatientInput!) {
+  deletePatient(input: $input) {
+    id
+    lastName
+    givenNames
+    email
+    mobile
+    dateOfBirth
+    deviceId
+    isActive
+    remarks
+  }
+}
